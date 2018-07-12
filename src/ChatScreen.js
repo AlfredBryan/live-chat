@@ -105,10 +105,19 @@ class ChatScreen extends Component {
                 display: 'flex',
                 flexDirection: 'column',
             },
+            header: {
+                backgroundColor: '#750c7a',
+                width: '300px',
+                flex: 'none',
+                padding: 20,
+                color: 'white',
+                fontFamily: 'Abril Fatface', 
+            }
         }
 
         return (
             <div style={styles.container}>
+                <div style={styles.header}><h1>WELCOME</h1></div>
         <div style={styles.chatContainer}>
                     <aside style={styles.whosOnlineListContainer}>
                         <WhosOnlineList
