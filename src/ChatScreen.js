@@ -50,7 +50,7 @@ class ChatScreen extends Component {
                     roomId: 11408625,
                     messageLimit: 100,
                     hooks: {
-                        newMessage: message => {
+                        onNewMessage: message => {
                             this.setState({
                                 messages: [...this.state.messages, message],
                             })

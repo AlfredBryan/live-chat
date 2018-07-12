@@ -13,11 +13,14 @@
        li: {
          marginTop: 13,
          marginBottom: 13,
+         backgroundColor: '#750c7a',
+         color: 'white',
+         borderRadius: '5px'
        },
        senderUsername: {
          fontWeight: 'bold',
        },
-       message: { fontSize: 15 },
+       message: { fontSize: 25 },
      }
      return (
        <div
